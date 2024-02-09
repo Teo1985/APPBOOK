@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #2196F3;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#libros-lista {
+  flex: 1;
+  padding-right: 20px;
+}
+
+#agregar-libro {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+#formulario-libro {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+}

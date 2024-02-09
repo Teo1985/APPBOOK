@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Booker</h1>
+  </header>
+
+  <main>
+    <section id="libros-lista">
+      <ul></ul>
+    </section>
+
+    <section id="agregar-libro">
+      <h2>Agregar Nuevo Libro</h2>
+      <form id="formulario-libro">
+<div>
+  <label for="titulo">Título:</label>
+  <input type="text" id="titulo" required>
+</div>
+
+<div>
+  <label for="autor">Autor:</label>
+  <input type="text" id="autor" required>
+</div>
+
+<div>
+  <label for="descripcion">Descripción:</label>
+  <textarea id="descripcion" required></textarea>
+</div>
+
+<div>
+  <label for="imagenURL">URL de la Imagen:</label>
+  <input type="text" id="imagenURL" required>
+</div>
+
+  <button type="submit">Agregar Libro</button>
+</form>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Siguenos en nuestras redes</p>
+    <p>© 2024 Tu Librería</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
